@@ -3,147 +3,111 @@
     flex-direction: column;
     margin: 0;
     height: 100vh;
-    font-size: 20px;
-    background-color: (194, 194, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(194, 194, 209);
 
 }
 
 header {
-    flex: 20%;
+    flex: 30%;
+}
+
+.header1 {
+
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 60px;
     padding-top: 20px;
-    color: rgb(49, 24, 24);
-    background-color: rgb(241, 175, 7);
+    color: rgb(4, 24, 24);
+
+
 }
+
+a:link {
+    text-decoration: none;
+}
+
 
 
 .header2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 10px;
-    background-color: rgb(241, 175, 7);
+
+}
+
+
+main {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+img {
+
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgb(216, 213, 216);
+    width: 260px;
+    height: 260px;
 }
 
 .aboutme {
-    flex: 80%;
-    display: flex;
-    flex-direction: column;
-    color: rgb(241, 175, 7);
-    background-color: rgb(49, 24, 24);
-    padding: 5px 20px 5px;
+
+    color: rgb(4, 24, 24);
+    padding: 20px 20px;
+    margin: 0px 40px;
     text-indent: 30px;
     text-align: justify;
+    line-height: 1.6;
+    border: 5px solid rgb(216, 213, 216)
 }
 
 h1 {
-    align-content: center;
-    justify-content: center;
-}
-
-p {
     display: flex;
     font-size: 30px;
     align-content: center;
     justify-content: center;
 }
 
-.resume {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: underline;
-    color: rgb(241, 175, 7);
-    background-color: rgb(49, 24, 24);
-}
 
-a:hover {
-    color: rgb(241, 175, 7);
+p {
+    display: flex;
+    font-size: 20px;
+    align-content: center;
+    justify-content: center;
 }
 
 .projects {
     display: flex;
-    flex-direction: row;
+
     justify-content: space-evenly;
     font-size: 40px;
-    color: rgb(241, 175, 7);
-    background-color: rgb(49, 24, 24);
-}
+    text-decoration: none;
 
-a:hover {
-    color: rgb(241, 175, 7);
-}
+    color: rgb(4, 24, 24);
+    background-color: rgb(194, 194, 209);
 
-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 400px;
-    height: 300px;
-}
 
-.selfie {
-    border-radius: 50%;
-    width: 325px;
-    height: 235px;
-    position: absolute;
-    margin-bottom: 800px;
-    margin-left: 1155px;
-    padding-top: 20px;
-}
-
-.experience {
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    text-decoration: underline;
-    color: rgb(241, 175, 7);
-    background-color: rgb(49, 24, 24);
 }
 
 .icons {
     display: flex;
+
+    align-items: center;
     justify-content: space-evenly;
-    color: rgb(241, 175, 7);
-    background-color: rgb(49, 24, 24);
+    color: rgb(4, 24, 24);
+    background-color: rgb(194, 194, 209);
 }
 
 footer {
-    flex: 10%;
-    display: flex;
-    flex-direction: column;
-    color: rgb(241, 175, 7);
-    background-color: rgb(49, 24, 24);
-}
-
-.form {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 20px;
-    color: rgb(241, 175, 7);
-    background-color: rgb(49, 24, 24);
-}
-
-input {
-    width: 400px;
-    height: 20px;
-}
-
-textarea {
-    width: 400px;
-}
-
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    width: 400px;
-    margin-left: 5px;
-    margin-bottom: 20px;
+    flex: 20%;
+    color: rgb(4, 24, 24);
+    background-color: rgb(194, 194, 209);
 }
