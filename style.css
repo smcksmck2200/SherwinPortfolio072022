@@ -4,12 +4,16 @@
     margin: 0;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(194, 194, 209);
+ 
+    
 
+}
+body{
+    background-color: rgb(194, 194, 209);
 }
 
 header {
-    flex: 30%;
+    flex: 20%;
 }
 
 .header1 {
@@ -23,6 +27,7 @@ header {
 
 
 }
+
 
 a:link {
     text-decoration: none;
@@ -54,7 +59,7 @@ img {
     align-items: center;
     justify-content: center;
     border: 4px solid rgb(216, 213, 216);
-    width: 260px;
+    width: 360px;
     height: 260px;
 }
 
@@ -104,10 +109,14 @@ p {
     justify-content: space-evenly;
     color: rgb(4, 24, 24);
     background-color: rgb(194, 194, 209);
+    border: 5px solid rgb(216, 213, 216)
 }
 
 footer {
     flex: 20%;
+    padding: 20px 20px;
+    margin: 0px 40px;
+    text-indent: 30px;
     color: rgb(4, 24, 24);
     background-color: rgb(194, 194, 209);
 }
